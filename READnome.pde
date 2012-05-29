@@ -84,22 +84,22 @@ void draw() {
 
 void monomePressed( int x, int y ) {
  if (x == 0 && y == 0) delayTm = 0;
- if (x == 1 && y == 0) delayTm = 25;
- if (x == 2 && y == 0) delayTm = 50;
- if (x == 3 && y == 0) delayTm = 100;
- if (x == 4 && y == 0) delayTm = 200;
- if (x == 5 && y == 0) delayTm = 300;
- if (x == 6 && y == 0) delayTm = 500;
- if (x == 7 && y == 0) delayTm = 1000;
+ else if (x == 1 && y == 0) delayTm = 25;
+ else if (x == 2 && y == 0) delayTm = 50;
+ else if (x == 3 && y == 0) delayTm = 100;
+ else if (x == 4 && y == 0) delayTm = 200;
+ else if (x == 5 && y == 0) delayTm = 300;
+ else if (x == 6 && y == 0) delayTm = 500;
+ else if (x == 7 && y == 0) delayTm = 1000;
  
  if (x == 0 && y == 1) rsetCntJ = 1023;
- if (x == 1 && y == 1) rsetCntJ = 255;
- if (x == 2 && y == 1) rsetCntJ = 15;
- if (x == 3 && y == 1) rsetCntJ = 7;
- if (x == 4 && y == 1) rsetCntJ = 4;
- if (x == 5 && y == 1) rsetCntJ = 2;
- if (x == 6 && y == 1) rsetCntJ = 1;
- if (x == 7 && y == 1) rsetCntJ = 0;
+ else if (x == 1 && y == 1) rsetCntJ = 255;
+ else if (x == 2 && y == 1) rsetCntJ = 15;
+ else if (x == 3 && y == 1) rsetCntJ = 7;
+ else if (x == 4 && y == 1) rsetCntJ = 4;
+ else if (x == 5 && y == 1) rsetCntJ = 2;
+ else if (x == 6 && y == 1) rsetCntJ = 1;
+ else if (x == 7 && y == 1) rsetCntJ = 0;
  
  j = 0;
  println("pressed! dealyTm = " + delayTm + "and reset count = " + rsetCntJ); 
