@@ -1,7 +1,6 @@
 /*  
- *  READnome 
- *  By: TVHeadedRobots, 2012
- *  CC Creative Commons License
+ *  READnome by TVHeadedRobots is licensed under a Creative Commons 
+ *  Attribution-ShareAlike 3.0 Unported License.
  * 
  *  This Processing Sketch uses the JKLabs monomic & oscP5 libraries to generate the monome's display
  *  
@@ -18,7 +17,7 @@ import jklabs.monomic.*;
 Monome m;
 
 // modify this value to any URL or file located in the sketch's data directory
-String data = "http://www.google.com"; 
+String data = "http://www.hackaday.com"; 
 
 int mWidth = 8;  // the number of leds across
 int mHeight = 8; // the number of leds down
